@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasonryViewController : UIViewController
+@interface MasonryViewController : BaseViewController
 
 @end

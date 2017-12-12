@@ -1,5 +1,5 @@
 //
-//  TwoViewController.h
+//  CAGradientLayerViewController.h
 //  FanDemo
 //
 //  Created by fan on 2017/12/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TwoViewController : BaseViewController
+@interface CAGradientLayerViewController : BaseViewController
 
 @end

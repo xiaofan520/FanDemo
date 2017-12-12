@@ -8,6 +8,7 @@
 
 #import "OneViewController.h"
 #import "MasonryViewController.h"
+#import "CAGradientLayerViewController.h"
 @interface OneViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)UITableView *tableView;
 @property (nonatomic,strong)NSMutableArray*array;
@@ -34,7 +35,7 @@
 -(NSMutableArray *)array{
     
     if (!_array) {
-        _array = [NSMutableArray arrayWithObjects:@"Masonry基础使用", nil];
+        _array = [NSMutableArray arrayWithObjects:@"Masonry基础使用",@"CAGradientLayer实现渐变色", nil];
     }
     return _array;
     
@@ -72,6 +73,15 @@
             
             MasonryViewController *vc = [[MasonryViewController alloc] init];
             vc.title = self.array[0];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 1:
+        {
+            
+            CAGradientLayerViewController *vc = [[CAGradientLayerViewController alloc] init];
+            vc.title = self.array[1];
             vc.hidesBottomBarWhenPushed = YES;
             [self.navigationController pushViewController:vc animated:YES];
         }

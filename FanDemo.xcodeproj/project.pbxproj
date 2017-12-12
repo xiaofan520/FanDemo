@@ -28,6 +28,13 @@
 		31A15AC01FDF69C60094657B /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15ABF1FDF69C60094657B /* ThreeViewController.m */; };
 		31A15AC31FDF69D40094657B /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15AC21FDF69D40094657B /* FourViewController.m */; };
 		31A15AC91FDF7A7B0094657B /* MasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15AC81FDF7A7B0094657B /* MasonryViewController.m */; };
+		31A15ACC1FDF9E5F0094657B /* CAGradientLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15ACB1FDF9E5F0094657B /* CAGradientLayerViewController.m */; };
+		31A15ACF1FDF9EC00094657B /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15ACE1FDF9EC00094657B /* BaseViewController.m */; };
+		31A15ADE1FDFA5AB0094657B /* Demo1TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15AD31FDFA5AB0094657B /* Demo1TableViewController.m */; };
+		31A15ADF1FDFA5AB0094657B /* Demo2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15AD51FDFA5AB0094657B /* Demo2TableViewController.m */; };
+		31A15AE01FDFA5AB0094657B /* CYBaseDemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15AD61FDFA5AB0094657B /* CYBaseDemoTableViewController.m */; };
+		31A15AE11FDFA5AB0094657B /* CYGCDImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15ADA1FDFA5AB0094657B /* CYGCDImageTableViewCell.m */; };
+		31A15AE21FDFA5AB0094657B /* CYGCDImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15ADC1FDFA5AB0094657B /* CYGCDImageModel.m */; };
 		31A1B4E41FD921D6009A61F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1B4E31FD921D6009A61F7 /* AppDelegate.m */; };
 		31A1B4E71FD921D6009A61F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1B4E61FD921D6009A61F7 /* ViewController.m */; };
 		31A1B4EA1FD921D6009A61F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A1B4E81FD921D6009A61F7 /* Main.storyboard */; };
@@ -97,6 +104,20 @@
 		31A15AC51FDF6E140094657B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		31A15AC71FDF7A7B0094657B /* MasonryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryViewController.h; sourceTree = "<group>"; };
 		31A15AC81FDF7A7B0094657B /* MasonryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryViewController.m; sourceTree = "<group>"; };
+		31A15ACA1FDF9E5F0094657B /* CAGradientLayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAGradientLayerViewController.h; sourceTree = "<group>"; };
+		31A15ACB1FDF9E5F0094657B /* CAGradientLayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAGradientLayerViewController.m; sourceTree = "<group>"; };
+		31A15ACD1FDF9EC00094657B /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		31A15ACE1FDF9EC00094657B /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		31A15AD21FDFA5AB0094657B /* Demo2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2TableViewController.h; sourceTree = "<group>"; };
+		31A15AD31FDFA5AB0094657B /* Demo1TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1TableViewController.m; sourceTree = "<group>"; };
+		31A15AD41FDFA5AB0094657B /* CYBaseDemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYBaseDemoTableViewController.h; sourceTree = "<group>"; };
+		31A15AD51FDFA5AB0094657B /* Demo2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2TableViewController.m; sourceTree = "<group>"; };
+		31A15AD61FDFA5AB0094657B /* CYBaseDemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYBaseDemoTableViewController.m; sourceTree = "<group>"; };
+		31A15AD71FDFA5AB0094657B /* Demo1TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1TableViewController.h; sourceTree = "<group>"; };
+		31A15AD91FDFA5AB0094657B /* CYGCDImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYGCDImageTableViewCell.h; sourceTree = "<group>"; };
+		31A15ADA1FDFA5AB0094657B /* CYGCDImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYGCDImageTableViewCell.m; sourceTree = "<group>"; };
+		31A15ADC1FDFA5AB0094657B /* CYGCDImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYGCDImageModel.m; sourceTree = "<group>"; };
+		31A15ADD1FDFA5AB0094657B /* CYGCDImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYGCDImageModel.h; sourceTree = "<group>"; };
 		31A1B4DF1FD921D6009A61F7 /* FanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A1B4E21FD921D6009A61F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31A1B4E31FD921D6009A61F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -287,10 +308,62 @@
 		31A15AC61FDF7A660094657B /* other */ = {
 			isa = PBXGroup;
 			children = (
+				31A15AE31FDFAB230094657B /* UIBezierPath常用方法 */,
+				31A15AD01FDFA5940094657B /* GCD */,
 				31A15AC71FDF7A7B0094657B /* MasonryViewController.h */,
 				31A15AC81FDF7A7B0094657B /* MasonryViewController.m */,
+				31A15ACA1FDF9E5F0094657B /* CAGradientLayerViewController.h */,
+				31A15ACB1FDF9E5F0094657B /* CAGradientLayerViewController.m */,
 			);
 			path = other;
+			sourceTree = "<group>";
+		};
+		31A15AD01FDFA5940094657B /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				31A15AD11FDFA5AB0094657B /* Controller */,
+				31A15ADB1FDFA5AB0094657B /* Model */,
+				31A15AD81FDFA5AB0094657B /* View */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		31A15AD11FDFA5AB0094657B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				31A15AD21FDFA5AB0094657B /* Demo2TableViewController.h */,
+				31A15AD51FDFA5AB0094657B /* Demo2TableViewController.m */,
+				31A15AD71FDFA5AB0094657B /* Demo1TableViewController.h */,
+				31A15AD31FDFA5AB0094657B /* Demo1TableViewController.m */,
+				31A15AD41FDFA5AB0094657B /* CYBaseDemoTableViewController.h */,
+				31A15AD61FDFA5AB0094657B /* CYBaseDemoTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		31A15AD81FDFA5AB0094657B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				31A15AD91FDFA5AB0094657B /* CYGCDImageTableViewCell.h */,
+				31A15ADA1FDFA5AB0094657B /* CYGCDImageTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		31A15ADB1FDFA5AB0094657B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31A15ADC1FDFA5AB0094657B /* CYGCDImageModel.m */,
+				31A15ADD1FDFA5AB0094657B /* CYGCDImageModel.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31A15AE31FDFAB230094657B /* UIBezierPath常用方法 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UIBezierPath常用方法";
 			sourceTree = "<group>";
 		};
 		31A1B4D61FD921D6009A61F7 = {
@@ -321,6 +394,8 @@
 				31444AD51FDE209100175C31 /* main */,
 				31A1B4E21FD921D6009A61F7 /* AppDelegate.h */,
 				31A1B4E31FD921D6009A61F7 /* AppDelegate.m */,
+				31A15ACD1FDF9EC00094657B /* BaseViewController.h */,
+				31A15ACE1FDF9EC00094657B /* BaseViewController.m */,
 				31A15AB01FDF690F0094657B /* MainViewController.h */,
 				31A15AB11FDF690F0094657B /* MainViewController.m */,
 				31A1B4E51FD921D6009A61F7 /* ViewController.h */,
@@ -562,24 +637,31 @@
 				31444AEE1FDE20EA00175C31 /* UIApplication+ext.m in Sources */,
 				31444AF31FDE20EA00175C31 /* UIView+ext.m in Sources */,
 				31A15ABD1FDF69B80094657B /* TwoViewController.m in Sources */,
+				31A15AE01FDFA5AB0094657B /* CYBaseDemoTableViewController.m in Sources */,
 				31444AEC1FDE20EA00175C31 /* UIView+BadBackgroundBehavior.m in Sources */,
+				31A15AE11FDFA5AB0094657B /* CYGCDImageTableViewCell.m in Sources */,
 				31444B021FDE61B700175C31 /* NSString+Caculate.m in Sources */,
 				31444AFB1FDE5E8A00175C31 /* NSDate+QKZCategory.m in Sources */,
 				31A1B4E71FD921D6009A61F7 /* ViewController.m in Sources */,
 				31444AF21FDE20EA00175C31 /* UIImage+ext.m in Sources */,
 				31444AF01FDE20EA00175C31 /* UIScreen+ext.m in Sources */,
+				31A15ACF1FDF9EC00094657B /* BaseViewController.m in Sources */,
 				31444AF11FDE20EA00175C31 /* UIColor+ext.m in Sources */,
 				31444AF81FDE5E6100175C31 /* CHTextViewCustom.m in Sources */,
 				31444AED1FDE20EA00175C31 /* UINavigationController+ext.m in Sources */,
 				31444AEF1FDE20EA00175C31 /* UILabel+ext.m in Sources */,
 				31A15ABA1FDF69A10094657B /* OneViewController.m in Sources */,
+				31A15ACC1FDF9E5F0094657B /* CAGradientLayerViewController.m in Sources */,
+				31A15ADE1FDFA5AB0094657B /* Demo1TableViewController.m in Sources */,
 				31A15AC01FDF69C60094657B /* ThreeViewController.m in Sources */,
 				31A15AB21FDF690F0094657B /* MainViewController.m in Sources */,
 				31A1B4F21FD921D6009A61F7 /* main.m in Sources */,
 				31A1B4E41FD921D6009A61F7 /* AppDelegate.m in Sources */,
 				31444AF41FDE20EA00175C31 /* UIButton+ext.m in Sources */,
+				31A15AE21FDFA5AB0094657B /* CYGCDImageModel.m in Sources */,
 				31A15AC31FDF69D40094657B /* FourViewController.m in Sources */,
 				31444B0A1FDE64A500175C31 /* UIControl+Custom.m in Sources */,
+				31A15ADF1FDFA5AB0094657B /* Demo2TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
