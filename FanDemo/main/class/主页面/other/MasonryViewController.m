@@ -1,40 +1,35 @@
 //
-//  ViewController.m
+//  MasonryViewController.m
 //  FanDemo
 //
-//  Created by fan on 2017/12/7.
+//  Created by fan on 2017/12/12.
 //  Copyright © 2017年 changhog. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "UILabel+ext.h"
-#import "UIView+ext.h"
-#import "NSDate+QKZCategory.h"
-#import <Masonry.h>
-@interface ViewController ()
+#import "MasonryViewController.h"
+
+@interface MasonryViewController ()
 @property (nonatomic,strong)UITextField*textField ;
 @property (nonatomic,strong)NSArray*array;
 @property (nonatomic,strong)NSArray*listText;
-
 @end
 
-@implementation ViewController
+@implementation MasonryViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    self.navigationController.navigationBar.translucent = NO;
+    self.view.backgroundColor = [UIColor whiteColor];
+    // Do any additional setup after loading the view.
     [self mask1];
-//    [self mask2];
-//    [self mask3];
-//    [self mask4];
+    //    [self mask2];
+    //    [self mask3];
+    //    [self mask4];
     
-//    [self mask5];
-//    [self mask6];
-    
-    
-
-    
+    //    [self mask5];
+    //    [self mask6];
 }
-
 - (void)mask6{
     
     UIView* bgView       = [[UIView alloc]init];
@@ -92,19 +87,19 @@
     bt1.backgroundColor = [UIColor orangeColor];
     bt2.backgroundColor = [UIColor orangeColor];
     bt3.backgroundColor = [UIColor orangeColor];
-
+    
     [bt1 setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     [bt2 setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-
+    
     [bt3 setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
-
+    
     [bt1 setTitle:@"111" forState:UIControlStateNormal];
     [bt2 setTitle:@"222" forState:UIControlStateNormal];
     [bt3 setTitle:@"333" forState:UIControlStateNormal];
     [self.view addSubview:bt1];
     [self.view addSubview:bt2];
     [self.view addSubview:bt3];
-
+    
     
     
     _array = @[bt1,bt2,bt3];
@@ -116,11 +111,11 @@
      *  @param leadSpacing     头部间隔
      *  @param tailSpacing     尾部间隔
      */
-//    [_array mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:20 leadSpacing:10 tailSpacing:10];
-//    [_array mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.top.mas_equalTo(10);
-//        make.width.mas_equalTo(50);
-//    }];
+    //    [_array mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:20 leadSpacing:10 tailSpacing:10];
+    //    [_array mas_makeConstraints:^(MASConstraintMaker *make) {
+    //        make.top.mas_equalTo(10);
+    //        make.width.mas_equalTo(50);
+    //    }];
     
     /**
      *  多个固定大小的控件的等间隔排列,变化的是间隔的空隙
@@ -139,15 +134,17 @@
 }
 
 - (void)mask1{
-        UILabel*lb = [[UILabel alloc] initWithFrame:CGRectZero];
-        lb.backgroundColor = [UIColor redColor];
-        lb.numberOfLines =0;
-        lb.text = @"wwkeopkpfidojfidjfidjfdwwkeopkpfidojfidjfidjfdwwkeopkpfidojfidjfidjfdwwkeopkpfidojfidjfidjfdwwkeopkpfidojfidjfidjfd";
-        [self.view addSubview:lb];
-        [lb mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.and.top.mas_equalTo(@10);
-            make.width.mas_equalTo(@100);
-        }];
+    UILabel*lb = [[UILabel alloc] initWithFrame:CGRectZero];
+    lb.backgroundColor = [UIColor redColor];
+    lb.numberOfLines =0;
+    lb.text = @"wwkeopkpfidojfidjfidjfdwwkeopkpfidojfidjfidjfdwwkeopkpfidojfidjfidjfdwwkeopkpfidojfidjfidjfdwwkeopkpfidojfidjfidjfd";
+    [self.view addSubview:lb];
+    [lb mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.left.and.top.mas_equalTo(0);
+        make.left.mas_equalTo(0);
+        make.top.mas_equalTo(0);
+        make.width.mas_equalTo(100);
+    }];
     UILabel*lb1 = [[UILabel alloc] initWithFrame:CGRectZero];
     lb1.backgroundColor = [UIColor redColor];
     lb1.numberOfLines =0;
@@ -155,7 +152,7 @@
     [self.view addSubview:lb1];
     
     [lb1 mas_makeConstraints:^(MASConstraintMaker *make) {
-    
+        
         make.left.equalTo(lb.mas_left).offset(0);
         make.top.equalTo(lb.mas_bottom).offset(10);
         make.width.mas_equalTo(40);
@@ -167,44 +164,44 @@
 - (void)mask2{
     
     //
-        UIView* blackView       = [UIView new];
-        blackView.backgroundColor = [UIColor blackColor];
-        [self.view addSubview:blackView];
+    UIView* blackView       = [UIView new];
+    blackView.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:blackView];
     
-        [blackView mas_makeConstraints:^(MASConstraintMaker *make) {
-            //添加约束大小
-            make.size.mas_equalTo(CGSizeMake(100, 100));
-            //在 左,上 添加约束 (左、上约束都是20）
-            make.left.and.top.mas_equalTo(20);
-        }];
+    [blackView mas_makeConstraints:^(MASConstraintMaker *make) {
+        //添加约束大小
+        make.size.mas_equalTo(CGSizeMake(100, 100));
+        //在 左,上 添加约束 (左、上约束都是20）
+        make.left.and.top.mas_equalTo(20);
+    }];
     
-        UIView* grayView         = [UIView new];
-        grayView.backgroundColor = [UIColor lightGrayColor];
-        [self.view addSubview:grayView];
+    UIView* grayView         = [UIView new];
+    grayView.backgroundColor = [UIColor lightGrayColor];
+    [self.view addSubview:grayView];
     
-        [grayView mas_makeConstraints:^(MASConstraintMaker *make) {
-            // 大小、上边距约束与黑色view相同
-            make.size.and.top.equalTo(blackView);
-            // 添加右边距约束（这里的间距是有方向性的，左、上边距约束为正数，右、下边距约束为负数）
-            make.right.mas_equalTo(-20);
-        }];
+    [grayView mas_makeConstraints:^(MASConstraintMaker *make) {
+        // 大小、上边距约束与黑色view相同
+        make.size.and.top.equalTo(blackView);
+        // 添加右边距约束（这里的间距是有方向性的，左、上边距约束为正数，右、下边距约束为负数）
+        make.right.mas_equalTo(-20);
+    }];
 }
 
 - (void)mask3{
     // 防止block中的循环引用
     __weak typeof(self) weakSelf = self;
-        UIView* view         = [UIView new];
-        view.backgroundColor = [UIColor brownColor];
-        [self.view addSubview:view];
-        //使用mas_makeConstraints添加约束
-        [view mas_makeConstraints:^(MASConstraintMaker *make) {
-    
-            // 添加大小约束（make就是要添加约束的控件view）
-            make.size.mas_equalTo(CGSizeMake(200, 200));
-    
-            // 添加居中约束（居中方式与self相同）
-            make.center.equalTo(weakSelf.view);
-        }];
+    UIView* view         = [UIView new];
+    view.backgroundColor = [UIColor brownColor];
+    [self.view addSubview:view];
+    //使用mas_makeConstraints添加约束
+    [view mas_makeConstraints:^(MASConstraintMaker *make) {
+        
+        // 添加大小约束（make就是要添加约束的控件view）
+        make.size.mas_equalTo(CGSizeMake(200, 200));
+        
+        // 添加居中约束（居中方式与self相同）
+        make.center.equalTo(weakSelf.view);
+    }];
     
     
 }
@@ -213,7 +210,7 @@
     _textField.backgroundColor = [UIColor redColor];
     [self.view addSubview:_textField];
     __weak typeof(self) weakSelf = self;
-
+    
     [_textField mas_makeConstraints:^(MASConstraintMaker *make) {
         //left,right,centerx,y  不能共存只能有其二
         make.left.mas_equalTo(20);
@@ -237,7 +234,7 @@
 }
 
 - (void)keyboardWillChangeFrameNotification:(NSNotification *)notification {
-
+    
     // 获取键盘基本信息（动画时长与键盘高度）
     NSDictionary *userInfo = [notification userInfo];
     CGRect rect = [userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
@@ -276,4 +273,16 @@
     [super touchesBegan:touches withEvent:event];
     [self.view endEditing:YES];
 }
+
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
 @end
