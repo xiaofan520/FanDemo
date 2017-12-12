@@ -22,6 +22,12 @@
 		31444B021FDE61B700175C31 /* NSString+Caculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31444AFE1FDE61B700175C31 /* NSString+Caculate.m */; };
 		31444B061FDE63BC00175C31 /* UIViewController+CHAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 31444B051FDE63BC00175C31 /* UIViewController+CHAlert.m */; };
 		31444B0A1FDE64A500175C31 /* UIControl+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 31444B081FDE64A500175C31 /* UIControl+Custom.m */; };
+		31A15AB21FDF690F0094657B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15AB11FDF690F0094657B /* MainViewController.m */; };
+		31A15ABA1FDF69A10094657B /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15AB91FDF69A10094657B /* OneViewController.m */; };
+		31A15ABD1FDF69B80094657B /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15ABC1FDF69B80094657B /* TwoViewController.m */; };
+		31A15AC01FDF69C60094657B /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15ABF1FDF69C60094657B /* ThreeViewController.m */; };
+		31A15AC31FDF69D40094657B /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15AC21FDF69D40094657B /* FourViewController.m */; };
+		31A15AC91FDF7A7B0094657B /* MasonryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A15AC81FDF7A7B0094657B /* MasonryViewController.m */; };
 		31A1B4E41FD921D6009A61F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1B4E31FD921D6009A61F7 /* AppDelegate.m */; };
 		31A1B4E71FD921D6009A61F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A1B4E61FD921D6009A61F7 /* ViewController.m */; };
 		31A1B4EA1FD921D6009A61F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31A1B4E81FD921D6009A61F7 /* Main.storyboard */; };
@@ -78,6 +84,19 @@
 		31444B051FDE63BC00175C31 /* UIViewController+CHAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CHAlert.m"; sourceTree = "<group>"; };
 		31444B081FDE64A500175C31 /* UIControl+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Custom.m"; sourceTree = "<group>"; };
 		31444B091FDE64A500175C31 /* UIControl+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+Custom.h"; sourceTree = "<group>"; };
+		31A15AB01FDF690F0094657B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		31A15AB11FDF690F0094657B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		31A15AB81FDF69A10094657B /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OneViewController.h; path = "FanDemo/main/class/主页面/one/OneViewController.h"; sourceTree = SOURCE_ROOT; };
+		31A15AB91FDF69A10094657B /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OneViewController.m; path = "FanDemo/main/class/主页面/one/OneViewController.m"; sourceTree = SOURCE_ROOT; };
+		31A15ABB1FDF69B80094657B /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		31A15ABC1FDF69B80094657B /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		31A15ABE1FDF69C60094657B /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		31A15ABF1FDF69C60094657B /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		31A15AC11FDF69D40094657B /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		31A15AC21FDF69D40094657B /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		31A15AC51FDF6E140094657B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		31A15AC71FDF7A7B0094657B /* MasonryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasonryViewController.h; sourceTree = "<group>"; };
+		31A15AC81FDF7A7B0094657B /* MasonryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasonryViewController.m; sourceTree = "<group>"; };
 		31A1B4DF1FD921D6009A61F7 /* FanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A1B4E21FD921D6009A61F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		31A1B4E31FD921D6009A61F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -176,6 +195,7 @@
 		31444AD91FDE20D300175C31 /* class */ = {
 			isa = PBXGroup;
 			children = (
+				31A15AB31FDF69530094657B /* 主页面 */,
 			);
 			path = class;
 			sourceTree = "<group>";
@@ -216,6 +236,63 @@
 			path = "uicontol分类";
 			sourceTree = "<group>";
 		};
+		31A15AB31FDF69530094657B /* 主页面 */ = {
+			isa = PBXGroup;
+			children = (
+				31A15AC61FDF7A660094657B /* other */,
+				31A15AB71FDF69770094657B /* four */,
+				31A15AB61FDF69710094657B /* three */,
+				31A15AB51FDF69690094657B /* two */,
+				31A15AB41FDF695E0094657B /* one */,
+			);
+			path = "主页面";
+			sourceTree = "<group>";
+		};
+		31A15AB41FDF695E0094657B /* one */ = {
+			isa = PBXGroup;
+			children = (
+				31A15AB81FDF69A10094657B /* OneViewController.h */,
+				31A15AB91FDF69A10094657B /* OneViewController.m */,
+			);
+			path = one;
+			sourceTree = "<group>";
+		};
+		31A15AB51FDF69690094657B /* two */ = {
+			isa = PBXGroup;
+			children = (
+				31A15ABB1FDF69B80094657B /* TwoViewController.h */,
+				31A15ABC1FDF69B80094657B /* TwoViewController.m */,
+			);
+			path = two;
+			sourceTree = "<group>";
+		};
+		31A15AB61FDF69710094657B /* three */ = {
+			isa = PBXGroup;
+			children = (
+				31A15ABE1FDF69C60094657B /* ThreeViewController.h */,
+				31A15ABF1FDF69C60094657B /* ThreeViewController.m */,
+			);
+			path = three;
+			sourceTree = "<group>";
+		};
+		31A15AB71FDF69770094657B /* four */ = {
+			isa = PBXGroup;
+			children = (
+				31A15AC11FDF69D40094657B /* FourViewController.h */,
+				31A15AC21FDF69D40094657B /* FourViewController.m */,
+			);
+			path = four;
+			sourceTree = "<group>";
+		};
+		31A15AC61FDF7A660094657B /* other */ = {
+			isa = PBXGroup;
+			children = (
+				31A15AC71FDF7A7B0094657B /* MasonryViewController.h */,
+				31A15AC81FDF7A7B0094657B /* MasonryViewController.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
 		31A1B4D61FD921D6009A61F7 = {
 			isa = PBXGroup;
 			children = (
@@ -244,12 +321,15 @@
 				31444AD51FDE209100175C31 /* main */,
 				31A1B4E21FD921D6009A61F7 /* AppDelegate.h */,
 				31A1B4E31FD921D6009A61F7 /* AppDelegate.m */,
+				31A15AB01FDF690F0094657B /* MainViewController.h */,
+				31A15AB11FDF690F0094657B /* MainViewController.m */,
 				31A1B4E51FD921D6009A61F7 /* ViewController.h */,
 				31A1B4E61FD921D6009A61F7 /* ViewController.m */,
 				31A1B4E81FD921D6009A61F7 /* Main.storyboard */,
 				31A1B4EB1FD921D6009A61F7 /* Assets.xcassets */,
 				31A1B4ED1FD921D6009A61F7 /* LaunchScreen.storyboard */,
 				31A1B4F01FD921D6009A61F7 /* Info.plist */,
+				31A15AC51FDF6E140094657B /* PrefixHeader.pch */,
 				31A1B4F11FD921D6009A61F7 /* main.m */,
 			);
 			path = FanDemo;
@@ -477,9 +557,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31A15AC91FDF7A7B0094657B /* MasonryViewController.m in Sources */,
 				31444B061FDE63BC00175C31 /* UIViewController+CHAlert.m in Sources */,
 				31444AEE1FDE20EA00175C31 /* UIApplication+ext.m in Sources */,
 				31444AF31FDE20EA00175C31 /* UIView+ext.m in Sources */,
+				31A15ABD1FDF69B80094657B /* TwoViewController.m in Sources */,
 				31444AEC1FDE20EA00175C31 /* UIView+BadBackgroundBehavior.m in Sources */,
 				31444B021FDE61B700175C31 /* NSString+Caculate.m in Sources */,
 				31444AFB1FDE5E8A00175C31 /* NSDate+QKZCategory.m in Sources */,
@@ -490,9 +572,13 @@
 				31444AF81FDE5E6100175C31 /* CHTextViewCustom.m in Sources */,
 				31444AED1FDE20EA00175C31 /* UINavigationController+ext.m in Sources */,
 				31444AEF1FDE20EA00175C31 /* UILabel+ext.m in Sources */,
+				31A15ABA1FDF69A10094657B /* OneViewController.m in Sources */,
+				31A15AC01FDF69C60094657B /* ThreeViewController.m in Sources */,
+				31A15AB21FDF690F0094657B /* MainViewController.m in Sources */,
 				31A1B4F21FD921D6009A61F7 /* main.m in Sources */,
 				31A1B4E41FD921D6009A61F7 /* AppDelegate.m in Sources */,
 				31444AF41FDE20EA00175C31 /* UIButton+ext.m in Sources */,
+				31A15AC31FDF69D40094657B /* FourViewController.m in Sources */,
 				31444B0A1FDE64A500175C31 /* UIControl+Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -659,6 +745,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69C947X7U3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FanDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = FanDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -675,6 +762,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 69C947X7U3;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FanDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = FanDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
