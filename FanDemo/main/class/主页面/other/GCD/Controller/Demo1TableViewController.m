@@ -81,6 +81,8 @@
     dispatch_group_notify(_group, dispatch_get_main_queue(), ^{
         [self.tableView reloadData];
     });
+    
+    NSLog(@"11111111");
 }
 
 @end

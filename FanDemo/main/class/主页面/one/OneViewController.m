@@ -45,8 +45,95 @@
     self.automaticallyAdjustsScrollViewInsets=YES;
 
     [self.view addSubview:self.tableView];
+    [self te];
+}
+// 冒泡升序
+-(void)te{
+    
+    NSMutableArray *arr_M = [NSMutableArray arrayWithObjects:@1,@4,@2,@3,@5,nil];
+    
+    //遍历`数组的个数`次
+    /*
+     i = 0 的时候，j的相邻两个位置都要比较排一下位置：
+     j = 0 的时候：arr_M = 41235
+     j = 1 的时候：arr_M = 42135
+     j = 2 的时候：arr_M = 42315
+     j = 3 的时候：arr_M = 42351
+     
+     i = 1;
+     ……  ……
+     */
+    for (int i = 0; i < arr_M.count; ++i) {
+        
+        //遍历数组的每一个`索引`（不包括最后一个,因为比较的是j+1）
+        for (int j = 0; j < arr_M.count-1; ++j) {
+            
+            //根据索引的`相邻两位`进行`比较` 小于降序
+            if (arr_M[j]> arr_M[j+1]) {
+                
+                [arr_M exchangeObjectAtIndex:j withObjectAtIndex:j+1];
+            }
+            
+        }
+    }
+    
+    NSLog(@"最终结果：%@",arr_M);
+    
+  
+    
+   
+    int a[]={1,2,3,4,6,9,22,33,11,3,6,4};
+    
+    int temp;
+    for (int i = 0; i<9; i++) {
+        for (int j= 0; j<9-i; j++) {
+            if (a[j] >a[j+1]) {
+                temp =a[j];
+                a[j] = a[j+1];
+                a[j+1] = temp;
+            }
+        }
+    }
+    /*验证：输出排序结果*/
+    for(int i=0;i<10;i++) {
+        
+        printf("%d-",a[i]);
+    }//
+    
+    
 }
 
+-(void)t{
+    
+    NSMutableArray *ar = [NSMutableArray arrayWithObjects:@5,@6,@3,@9,@4, nil];
+    for (int i = 0; i<ar.count; ++i) {
+
+        for (int j =0 ; j < ar.count-1; ++j) {
+            if (ar[j] > ar[j+1]) {
+                [ar exchangeObjectAtIndex:j withObjectAtIndex:j+1];
+            }
+        }
+    }
+    
+    
+   int a[10]={1,4,8,5,2,9,43};
+
+    
+    int temp;
+    
+    for ( int i = 0; i<9; i++) {
+        for (int j = 0; j<9-i; j++) {
+            if (a[j]>a[j+1]) {
+                temp = a[j];
+                a[j] = a[j+1];
+                a[j+1] = temp;
+            }
+        }
+        
+    }
+    
+    
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
